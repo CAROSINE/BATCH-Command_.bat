@@ -6,4 +6,4 @@ cls       REM clear screen
 cd ..\    REM change directory to parent folder
 dir       REM list files and directories
 if        REM for conditional statement
-for      REM to run loop
+for       REM to run loop
