@@ -17,3 +17,8 @@ goto menu
 echo Hello, Boss!
 pause
 goto menu
+
+:goodbye
+echo See you later!
+pause
+goto menu
