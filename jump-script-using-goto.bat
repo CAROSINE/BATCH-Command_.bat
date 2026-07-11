@@ -12,3 +12,8 @@ if "%Choise%"=="1" goto hello
 if "%Choise%"=="2" goto goodbye
 if "%Choise%"=="3" goto end
 goto menu
+
+:hello
+echo Hello, Boss!
+pause
+goto menu
