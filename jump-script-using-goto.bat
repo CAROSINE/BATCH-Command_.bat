@@ -22,3 +22,7 @@ goto menu
 echo See you later!
 pause
 goto menu
+
+:end
+echo Exiting...
+pause
