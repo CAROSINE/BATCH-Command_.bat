@@ -8,3 +8,7 @@ echo 2. Say Goodbye
 echo 3. Exit
 set /p choise=Chose:
 
+if "%Choise%"=="1" goto hello
+if "%Choise%"=="2" goto goodbye
+if "%Choise%"=="3" goto end
+goto menu
