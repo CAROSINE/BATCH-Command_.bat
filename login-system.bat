@@ -24,3 +24,7 @@ echo ==========================
 echo 1. Show System Info
 echo 2. Logout
 set /p opt=Select:
+
+if %opt%=="1" goto sysinfo
+if %opt%==""2" goto login
+goto success
