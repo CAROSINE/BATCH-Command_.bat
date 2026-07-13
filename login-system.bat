@@ -1,5 +1,5 @@
 @echo off
-color 0a
+color 0b
 title Login System
 
 :login
