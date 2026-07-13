@@ -28,3 +28,13 @@ set /p opt=Select:
 if %opt%=="1" goto sysinfo
 if %opt%==""2" goto login
 goto success
+
+:sysinfo
+cls
+echo System Information
+echo ------------------
+echo OS: %os%
+echo Computer Name: %computername%
+echo Usename: %username%
+pause
+goto success
