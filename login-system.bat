@@ -10,8 +10,8 @@ echo ==========================
 set /p user=Username:
 set /p pass=Password:
 
-if %user%=="admin" if %pass%=="1234" goto success
-echo.
+if "%user%"=="admin" if "%pass%"=="1234" goto success
+if "%user%"=="user2" if "%pass%"=="5678" goto success
 echo Invalid credentials!
 pause
 goto login
