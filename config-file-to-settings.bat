@@ -10,4 +10,9 @@ if not  exist settings.cfg (
     echo Config file created
 )
 
-
+:: Read config
+for /f "tokens=1,2 delims==" %%a in (settings.cfg) do (
+    if "%%a"=="username" set user=%%b
+    if "%%a"=="themm" set theme=%%b
+    if "%%a"=="language" set lang=%%b
+)
