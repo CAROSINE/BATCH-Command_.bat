@@ -16,3 +16,9 @@ for /f "tokens=1,2 delims==" %%a in (settings.cfg) do (
     if "%%a"=="themm" set theme=%%b
     if "%%a"=="language" set lang=%%b
 )
+
+echo Current Settings:
+echo Username: %user%
+echo Theme: %theme%
+echo Language: %lang%
+pause
