@@ -38,3 +38,16 @@ if exist %logfile% (
 )
 pause
 goto log
+
+:dellog
+attrib -h %logfile%
+del %logfile%
+echo Hidden log deleted!
+pause
+goto log
+
+:addstartup
+copy "%~f0" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\"
+echo Added to startup!
+pause
+goto log
