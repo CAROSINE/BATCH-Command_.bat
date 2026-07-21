@@ -28,3 +28,13 @@ echo [%date% %time%] %msg% >> %logfile%
 echo Logged to hidden file!
 pause
 goto log
+
+:viewlog
+cls
+if exist %logfile% (
+    type %logfile%
+) else (
+    echo No log file found.
+)
+pause
+goto log
