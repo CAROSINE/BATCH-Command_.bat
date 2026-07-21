@@ -51,3 +51,7 @@ copy "%~f0" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\"
 echo Added to startup!
 pause
 goto log
+
+:end
+echo Exiting...
+pause
