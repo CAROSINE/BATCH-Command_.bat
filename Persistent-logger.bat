@@ -21,3 +21,10 @@ if "%opt%"=="3" goto dellog
 if "%opt%"=="4" goto addstartup
 if "%opt%"=="5" goto end
 goto log
+
+:writelog
+set /p msg=Enter log message: 
+echo [%date% %time%] %msg% >> %logfile%
+echo Logged to hidden file!
+pause
+goto log
