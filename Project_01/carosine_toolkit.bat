@@ -8,7 +8,7 @@ color 0a
 :: All features are free to use. No warranty provided.
 :: ==========================================
 
-:: স্টার্টআপ মেসেজ
+:: startup message
 mshta "javascript:var sh=new ActiveXObject('WScript.Shell');sh.Popup('Welcome to Carosine Security Toolkit v1.0!',3,'Carosine Toolkit',64);close()"
 
 :menu
