@@ -73,7 +73,7 @@ if "%netopt%"=="1" (
 ) else if "%netopt%"=="4" (
     ipconfig | findstr /i "IPv4"
 ) else (
-    echo Invalid option!
+    echo Invalid Option!
 )
 pause
 goto menu
