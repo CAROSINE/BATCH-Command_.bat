@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 title Function Demo
 
-:: ফাংশন কল করা
+:: function call kora
 call :welcome
 call :showdate
 call :add 10 20
