@@ -12,4 +12,4 @@ goto loop
 :done
 echo.
 echo All arguments processed.
-pause
+pause 
